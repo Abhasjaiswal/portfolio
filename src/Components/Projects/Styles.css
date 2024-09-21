@@ -1,0 +1,157 @@
+.recent-work {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .section-header p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .work-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    flex-wrap: wrap; 
+  }
+  
+  .work-card {
+    width: 350px;
+    margin: 15px;
+    text-align: left;
+    height: 496px;
+    flex-basis: 100%; 
+    max-width: 445px;
+  }
+  
+  .work-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .work-card h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .work-card p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .cta-button {
+    background-color: #00ff00;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #00e600;
+  }
+  
+  .arrow {
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+    padding: 120px;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .right-arrow {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  @media (max-width: 1024px) {
+    .work-cards {
+      margin-top: 30px;
+    }
+  
+    .work-card {
+      margin: 10px;
+      width: 300px; 
+    }
+  
+    .cta-button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  
+    .arrow {
+      padding: 80px;
+    }
+  
+    .left-arrow, .right-arrow {
+      left: -30px;
+      right: -30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .work-card {
+      width: 100%; 
+      max-width: none;
+      margin: 15px 0; 
+    }
+  
+    .cta-button {
+      font-size: 0.85rem;
+    }
+  
+    .arrow {
+      display: none; 
+    }
+  
+    .section-header h2 {
+      font-size: 2rem;
+    }
+    
+    .section-header p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-header h2 {
+      font-size: 1.8rem;
+    }
+  
+    .section-header p {
+      font-size: 0.8rem;
+    }
+  
+    .work-card {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .cta-button {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+  }
+  

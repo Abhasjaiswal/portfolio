@@ -1,0 +1,121 @@
+.contact-form {
+  text-align: center;
+  padding: 40px;
+  background-color: black;
+  color: #fff;
+  height: 80vh;
+}
+
+.form-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-header p {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+}
+.form-header{
+  margin-top: 8vh;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #666;
+}
+
+input,
+textarea {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.submit-button {
+  background-color: #00ff00;
+  color: #000;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #00e600;
+}
+
+@media (max-width: 768px) {
+  .form-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .form-header p {
+    font-size: 0.9rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .submit-button {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .form-header p {
+    font-size: 0.8rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.8rem;
+    padding: 6px;
+  }
+
+  .submit-button {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+}
